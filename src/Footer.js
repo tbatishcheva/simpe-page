@@ -9,15 +9,15 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
         <div className="footer__item">
-          <img alt="icon" src={cameraIcon} />
+          <img className="footer__item-img" alt="icon" src={cameraIcon} />
           <p>19</p>
         </div>
         <div className="footer__item">
-          <img alt="icon" src={heartIcon} />
+          <img className="footer__item-img" alt="icon" src={heartIcon} />
           <p>24</p>
         </div>
         <div className="footer__item">
-          <img alt="icon" src={bubbleIcon} />
+          <img className="footer__item-img" alt="icon" src={bubbleIcon} />
           <p>12</p>
         </div>
       </footer>

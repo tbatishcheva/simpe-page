@@ -1,18 +1,23 @@
-.header img {
-    z-index: -1;
+.header {
+    position: relative;
 }
 
-.header__title {
-    margin-top: -80px;
-    margin-left: 15px;
-    line-height: 25px;
+.header-img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header__text {
+    position: absolute;
+    bottom: 20px;
+    left: 23px;
 }
 
 .header__location {
-    margin-left: 15px;
     font-size: 18px;
 }
 
-.header__location img {
-    padding-right:10px;
+.header__location-img {
+    padding-right:5px;
 }
