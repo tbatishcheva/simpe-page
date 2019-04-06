@@ -1,9 +1,11 @@
 .footer {
-    background-color: white;
+    font-size: 18px;
+    background-color: inherit;
+    border-radius: inherit;
     display: flex;
-    width: 423px;
     justify-content: space-around;
     color: #A7A9AC;
+    padding-top: 15px;
 }
 
 .footer__item {
