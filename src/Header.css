@@ -1,0 +1,34 @@
+.header {
+    background-image: url("./Main_Picture.svg");
+    /*position: absolute;*/
+    width: 423px;
+    height: 285px;
+    color: white;
+    font-family: Avenir Next;
+    font-size: 32pt;
+    margin-top: 200px;
+    /*margin-left: 100px;*/
+}
+
+.header__content p {
+    padding: 0;
+    margin: 0;
+}
+
+.header__content {
+    padding: 0;
+    margin: 0;
+    padding-top: 175px;
+    padding-left: 15px;
+}
+
+.header__item {
+    display: flex;
+    /*display: inline;*/
+    font-size: 18pt;
+    /*align-items: flex-start;*/
+}
+
+.header__item img {
+    padding-right: 5px;
+}

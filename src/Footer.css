@@ -1,0 +1,14 @@
+.footer {
+    background-color: white;
+    display: flex;
+    width: 423px;
+    justify-content: space-around;
+}
+
+.footer_item {
+    display: flex;
+}
+
+.footer_item img {
+    padding-right: 5px;
+}
