@@ -3,12 +3,13 @@
     display: flex;
     width: 423px;
     justify-content: space-around;
+    color: #A7A9AC;
 }
 
-.footer_item {
+.footer__item {
     display: flex;
 }
 
-.footer_item img {
+.footer__item img {
     padding-right: 5px;
 }

@@ -8,15 +8,15 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <div className="footer_item">
+        <div className="footer__item">
           <img alt="icon" src={cameraIcon} />
           <p>19</p>
         </div>
-        <div className="footer_item">
+        <div className="footer__item">
           <img alt="icon" src={heartIcon} />
           <p>24</p>
         </div>
-        <div className="footer_item">
+        <div className="footer__item">
           <img alt="icon" src={bubbleIcon} />
           <p>12</p>
         </div>
